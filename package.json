@@ -1,28 +1,30 @@
 {
-  "name": "nodeapi",
-  "version": "1.0.0",
-  "description": "First attempt at building a node api",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sjlowchappell/nodeapi.git"
-  },
-  "keywords": [
-    "Restful",
-    "API",
-    "tutorial"
-  ],
-  "author": "sam low-chappell",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/sjlowchappell/nodeapi/issues"
-  },
-  "homepage": "https://github.com/sjlowchappell/nodeapi#readme",
-  "dependencies": {
-    "express": "^4.17.1",
-    "nodemon": "^2.0.2"
-  }
+	"name": "nodeapi",
+	"version": "1.0.0",
+	"description": "First attempt at building a node api",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "nodemon server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/sjlowchappell/nodeapi.git"
+	},
+	"keywords": [
+		"Restful",
+		"API",
+		"tutorial"
+	],
+	"author": "sam low-chappell",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/sjlowchappell/nodeapi/issues"
+	},
+	"homepage": "https://github.com/sjlowchappell/nodeapi#readme",
+	"dependencies": {
+		"express": "^4.17.1",
+		"mongoose": "^5.8.7",
+		"nodemon": "^2.0.2"
+	}
 }
